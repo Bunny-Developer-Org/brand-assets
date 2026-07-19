@@ -36,6 +36,14 @@ Don't go below 24px for the raster PNGs or the blade tips start to lose their cu
 - On dark surfaces: use `logo-dark.svg` (cream).
 - Don't place either transparent version directly on a busy photo or a mid-tone background where neither version has enough contrast — use one of the opaque avatar files instead, which carry their own background.
 
+## Per-app assets
+
+Assets specific to one app (not the shared org mark) live under `apps/<app-name>/`.
+
+| Path | What it's for |
+|---|---|
+| `apps/vane-bunny/play-developer-header.png` | 4096×2304, 24-bit PNG, no alpha, 176KB. Vane Bunny's Google Play developer header image (uses that app's own three-wing icon + wordmark, not the shared org mark). |
+
 ## Setting the GitHub org avatar
 
 GitHub doesn't expose org-avatar upload over the API in a way that's safe to script unattended, so this is a manual step:
