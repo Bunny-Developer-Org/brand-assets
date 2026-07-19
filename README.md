@@ -15,6 +15,7 @@ The org mark: two soft, asymmetric blades leaning into an ear silhouette. One co
 | `avatar/github-avatar-light.png` | 512×512, opaque cream background, mark sized inside a circular-safe zone. Use this to set the org's GitHub avatar. |
 | `avatar/github-avatar-dark.png` | Same, opaque ink background, cream mark — for places that composite the avatar on dark chrome. |
 | `favicon-32.png`, `favicon-16.png` | Opaque cream background, for browser tabs on org sites (e.g. a docs site or status page). |
+| `play-developer-header.png` | 4096×2304, 24-bit PNG, no alpha, 176KB. Google Play developer-page header image. |
 
 ## Color
 
@@ -35,14 +36,6 @@ Don't go below 24px for the raster PNGs or the blade tips start to lose their cu
 - On light/cream surfaces: use `logo-light.svg` (ink).
 - On dark surfaces: use `logo-dark.svg` (cream).
 - Don't place either transparent version directly on a busy photo or a mid-tone background where neither version has enough contrast — use one of the opaque avatar files instead, which carry their own background.
-
-## Per-app assets
-
-Assets specific to one app (not the shared org mark) live under `apps/<app-name>/`.
-
-| Path | What it's for |
-|---|---|
-| `apps/vane-bunny/play-developer-header.png` | 4096×2304, 24-bit PNG, no alpha, 176KB. Vane Bunny's Google Play developer header image (uses that app's own three-wing icon + wordmark, not the shared org mark). |
 
 ## Setting the GitHub org avatar
 
