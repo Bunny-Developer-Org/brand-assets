@@ -12,10 +12,12 @@ The org mark: two soft, asymmetric blades leaning into an ear silhouette. One co
 | `logo-dark.svg` | Same mark in cream, for dark backgrounds. |
 | `png/logo-light-{1024,512,256,128,64,32}.png` | Ink-on-transparent raster, for tools that don't take SVG. |
 | `png/logo-dark-{1024,512,256,128,64,32}.png` | Cream-on-transparent raster, for dark surfaces. |
-| `avatar/github-avatar-light.png` | 512×512, opaque cream background, mark sized inside a circular-safe zone. Use this to set the org's GitHub avatar. |
-| `avatar/github-avatar-dark.png` | Same, opaque ink background, cream mark — for places that composite the avatar on dark chrome. |
-| `favicon-32.png`, `favicon-16.png` | Opaque cream background, for browser tabs on org sites (e.g. a docs site or status page). |
-| `play-developer-header.png` | 4096×2304, 24-bit PNG, no alpha, 176KB. Google Play developer-page header image. |
+| `avatar/github-avatar-light.svg` / `.png` | 512×512, opaque cream background, mark sized inside a circular-safe zone. Use this to set the org's GitHub avatar. |
+| `avatar/github-avatar-dark.svg` / `.png` | Same, opaque ink background, cream mark — for places that composite the avatar on dark chrome. |
+| `favicon-32.png`, `favicon-16.png` | Opaque cream background, for browser tabs on org sites (e.g. a docs site or status page). Re-derive from `logo-light.svg` plus a `#F7F2E9` background rect if you need another size. |
+| `play-developer-header.svg` / `.png` | 4096×2304. Google Play developer-page header image. The PNG is 24-bit, no alpha, 176KB. |
+
+Every PNG has a matching SVG source (or, for the favicons, is directly derived from `logo-light.svg`) — regenerate any size or format from the SVG rather than upscaling a PNG.
 
 ## Color
 

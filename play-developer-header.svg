@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4096" height="2304" viewBox="0 0 4096 2304">
+  <rect width="4096" height="2304" fill="#F7F2E9" />
+  <defs><path id="petal" d="M 0,0 C -11,-17 -40,-32 -19,-68 C 2,-55 15,-27 0,0 Z" /></defs>
+  <g transform="translate(1523.634,1129.039) scale(5.34282)">
+    <use href="#petal" fill="#3A362E" transform="rotate(-28)" />
+    <use href="#petal" fill="#FF6B4A" transform="rotate(92)" />
+    <use href="#petal" fill="#3A362E" transform="rotate(212)" />
+  </g>
+  <text x="1990" y="1242" font-family="Georgia, serif" font-size="300" fill="#3A362E">vane bunny</text>
+</svg>
